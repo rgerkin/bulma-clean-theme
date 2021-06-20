@@ -6,50 +6,27 @@ callouts: home_callouts
 show_sidebar: true
 ---
 
-# Bulma Clean Theme demo website
+# The Pyrfume Project
 
-This website showcases the options for the Bulma Clean theme. The theme is available as a ruby gem or can be used with GitHub pages. 
 
-[![Gem Version](https://badge.fury.io/rb/bulma-clean-theme.svg)](https://badge.fury.io/rb/bulma-clean-theme)
-![Gem](https://img.shields.io/gem/dt/bulma-clean-theme.svg)
+## Mission:
+Pyrfume aims to make odorant-linked datasets:
+- Easy to *f*ind
+- Easy to *a*ccess and use
+- *I*nteroperable with other datasets and tools
+- Facilitate *r*eproducible analysis and modeling
 
-## Ruby Gem
+## Components:
+#### `pyrfume`, a Python package
+<img src=https://simpleicons.org/icons/github.svg width="20" valign=top> [Source](http://github.com/pyrfume/pyrfume)<br>
+<img src=https://static.thenounproject.com/png/192334-200.png width=20 valign=top> [Docs](http://docs.pyrfume.org)
 
-The ruby gem is available on the Ruby Gems website at the following location. [https://rubygems.org/gems/bulma-clean-theme](https://rubygems.org/gems/bulma-clean-theme).
+#### `pyrfume-data`, Curated and standardized datasets for research and model benchmarking
+<img src=https://simpleicons.org/icons/github.svg width="20" valign=top> [Public Source](http://github.com/pyrfume/pyrfume-data)<br>
+<img src=https://static.thenounproject.com/png/2013853-200.png [Curation Status](http://status.pyrfume.org)<br>
+<img src=https://static.thenounproject.com/png/4005023-200.png width="20" valign=top> [Contact for more](mailto:admin@pyrfume.org)<br>
 
-## GitHub Pages
+#### `Rfume`, an R package (limited features)
+<img src=https://simpleicons.org/icons/github.svg width="20" valign=top> [Source](http://github.com/pyrfume/rfume)
 
-The theme can be used with GitHub Pages by setting the `remote_theme` in your Jekyll sites `_config.yml`
-
-```yml
-remote_theme: chrisrhymes/bulma-clean-theme
-```
-
-## Instructions
-
-For full instructions, please see the Readme at the GitHub repo:
-[https://github.com/chrisrhymes/bulma-clean-theme/blob/master/README.md](https://github.com/chrisrhymes/bulma-clean-theme/blob/master/README.md)
-
-## Page Layouts
-
-This demo site showcases the available page layout options.
-
-* Page With Sidebar
-* Page Without Sidebar
-* Page With Menubar
-* Page With Tabs
-* Page Without Footer
-* Page Without Hero
-* Page With Contents
-* Landing Page With Callouts
-* Sponsors Page
-* Image Gallery
-* Recipe Page
-* Blog
-* Post
-
-## Supported By JetBrains
-
-JetBrains have kindly provided an Open Source licence to aid in the future development of Bulma Clean Theme.
-
-[![JetBrains](img/jetbrains-variant-4.svg)](https://www.jetbrains.com/?from=bulma-clean-theme)
+#### `pyRESTfume`, a REST API for state-less computations with odorant-linked data
